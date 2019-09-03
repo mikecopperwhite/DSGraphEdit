@@ -72,10 +72,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.2.2864.18696, Culture=neutral, PublicKeyToken=d481317c817cec47, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Referenced Libs\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutForm.cs">
@@ -162,6 +158,10 @@
     <EmbeddedResource Include="RemoteGraphTile.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\WinForms\WinFormsUI\WinFormsUI.csproj">
+      <Project>{c75532c4-765b-418e-b09b-46d36b2abdb1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DaggerLib.DSGraphEdit\DaggerLib.DSGraphEdit.csproj">
       <Project>{404c97a0-b6c6-4bd4-aef0-9d830f329f35}</Project>
       <Name>DaggerLib.DSGraphEdit</Name>
