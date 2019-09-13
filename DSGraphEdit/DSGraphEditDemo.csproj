@@ -158,7 +158,7 @@
     <EmbeddedResource Include="RemoteGraphTile.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WinForms\WinFormsUI\WinFormsUI.csproj">
+    <ProjectReference Include="..\WinForms\WinFormsUI\WinFormsUI.csproj">
       <Project>{c75532c4-765b-418e-b09b-46d36b2abdb1}</Project>
       <Name>WinFormsUI</Name>
     </ProjectReference>
